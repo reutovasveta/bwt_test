@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body{
+  height: 100%;
+}
+.wrapper {
+  height: 90%;
+}
+.content {
+  min-height: 95%;
+}
+
+h1#main{
+    text-align: center;
+}
+input.form-control.pol {
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 10px; 
+}
+.form_style input.error{
+    border-color: #b80606;
+}
+.message{
+    border-bottom:1px solid lightgray;
+}
+.message p{
+    font-size: 12px;
+}
+.form_check .error_box{
+    font-size: 12px;
+    height: 10px;
+    padding-left: 5px;
+    color: red;
+}
+div.info{
+    color: green;
+}
